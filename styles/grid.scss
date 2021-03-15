@@ -1,0 +1,25 @@
+@import 'flexbox-grid-mixins';
+
+.grid {
+    @include grid();
+}
+
+.grid__col-2 {
+    @include grid-col(2);
+}
+
+.grid__col-3 {
+    @include grid-col(3);
+}
+
+.grid__col-4 {
+    @include grid-col(4);
+}
+
+.grid__col-5 {
+    @include grid-col(5);
+}
+
+.grid__col-6 {
+    @include grid-col(6);
+}
